@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Ritvik Teegavarapu</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Ritvik Teegavarapu</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Mar 2026 21:49:18 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cv</title>
+      <link>http://localhost:1313/cv/</link>
+      <pubDate>Wed, 25 Mar 2026 21:49:18 -0700</pubDate>
+      <guid>http://localhost:1313/cv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Outreach</title>
+      <link>http://localhost:1313/outreach/</link>
+      <pubDate>Wed, 25 Mar 2026 21:49:18 -0700</pubDate>
+      <guid>http://localhost:1313/outreach/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Publications</title>
+      <link>http://localhost:1313/publications/</link>
+      <pubDate>Wed, 25 Mar 2026 21:49:18 -0700</pubDate>
+      <guid>http://localhost:1313/publications/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>http://localhost:1313/research/</link>
+      <pubDate>Wed, 25 Mar 2026 21:49:18 -0700</pubDate>
+      <guid>http://localhost:1313/research/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Talks</title>
+      <link>http://localhost:1313/talks/</link>
+      <pubDate>Wed, 25 Mar 2026 21:49:18 -0700</pubDate>
+      <guid>http://localhost:1313/talks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Teaching</title>
+      <link>http://localhost:1313/teaching/</link>
+      <pubDate>Wed, 25 Mar 2026 21:49:18 -0700</pubDate>
+      <guid>http://localhost:1313/teaching/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

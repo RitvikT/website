@@ -1,0 +1,43 @@
+baseURL = "https://ritvik-teegavarapu.com"
+languageCode = "en-us"
+title = "Ritvik Teegavarapu"
+theme = "hugo-xmin"
+
+[params]
+  description = "Incoming PhD student in Applied Mathematics @ Brown University"
+  footer = "© 2026 Ritvik Teegavarapu"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Research"
+  url = "/research/"
+  weight = 2
+
+  [[menu.main]]
+  name = "Teaching"
+  url = "/teaching/"
+  weight = 3
+
+[[menu.main]]
+  name = "Publications"
+  url = "/publications/"
+  weight = 4
+
+[[menu.main]]
+  name = "Talks"
+  url = "/Talks/"
+  weight = 5
+
+[[menu.main]]
+  name = "Outreach"
+  url = "/outreach/"
+  weight = 6
+
+[[menu.main]]
+  name = "CV"
+  url = "/cv/"
+  weight = 7
