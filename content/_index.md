@@ -2,6 +2,8 @@
 title: "Home"
 ---
 
+![Ritvik Teegavarapu](/profile.png)
+
 Hello! My name is Ritvik Teegavarapu, and I am an incoming Ph.D. student at Brown University under the supervision of [Kavita Ramanan](https://sites.google.com/brown.edu/kavita-ramanan/people?authuser=0),
 and currently a fourth-year undergraduate at the California Institute of Technology
 on track to receive my B.Sc. in Applied and Computational Mathematics under the
