@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/cv/</loc>
-    <lastmod>2026-03-25T21:49:18-07:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2026-03-26T08:18:46-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/mentoring/</loc>
+    <lastmod>2026-03-26T08:18:46-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/cv/</loc>
     <lastmod>2026-03-25T21:49:18-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/outreach/</loc>
@@ -14,17 +17,15 @@
     <loc>http://localhost:1313/publications/</loc>
     <lastmod>2026-03-25T21:49:18-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/research/</loc>
-    <lastmod>2026-03-25T21:49:18-07:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/talks/</loc>
-    <lastmod>2026-03-25T21:49:18-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/teaching/</loc>
     <lastmod>2026-03-25T21:49:18-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
+    <loc>http://localhost:1313/research/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/teaching/</loc>
   </url>
 </urlset>
