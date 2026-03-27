@@ -1,5 +1,14 @@
 +++
-date = '2026-03-25T21:49:18-07:00'
 draft = true
 title = 'Outreach'
 +++
+
+> "Mathematics knows no races or geographic boundaries; for mathematics, the cultural
+> world is one country." 
+> — David Hilbert
+
+Introducing mathematics is 
+
+## STACK
+
+
