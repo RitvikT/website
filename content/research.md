@@ -3,7 +3,13 @@ draft = true
 title = 'Research'
 +++
 
-My research interests are broadly in applied probability theory, in particular studying the *microscopic* "random" behavior of an interacting particle system (IPS) can be organized to recover specific *macroscopic* behaviors of the ensemble. I broadly outline some of my current projects below in two programs, algorithmically and probabilistically. 
+My research interests are broadly in applied probability theory, in particular studying the *microscopic* random behavior of an interacting particle system (IPS) can be organized to recover specific *macroscopic* behaviors of the ensemble. Formally, in the diffusion setting, the dynamics on a graph $G$ can be specified by a system of $N$ coupled SDEs.
+$$\mathrm{d}X_{t}^{i,N} = b(X_{t}^{i,N}, \mu_{t}^{N}) \ \mathrm{d}t + \sigma(X_{t}^{i,N}, \mu_{t}^{N}) \ \mathrm{d}W_{t}^{i}\ ,$$
+with sufficiently regular $\sigma, b : \mathbb{R}^d \times \mathcal{P}(\mathbb{R}^d) \rightarrow \mathbb{R}^d$ and empirical measure $\mu_{t}^{N} := \frac{1}{N} \sum_{i=1}^{N} \delta_{X_{t}^{i,N}}$.
+
+This is of practical interest in settings where one would like to estimate random processes influenced by 
+
+I broadly outline some of my current projects below in two distinct programs, which are investigating . 
 
 ## IPS for Optimization and Sampling
 

@@ -29,7 +29,7 @@
       
       <li><a href="/publications/">Publications</a></li>
       
-      <li><a href="/talks/">Talks</a></li>
+      <li><a href="/presentations/">Presentations</a></li>
       
       <li><a href="/teaching/">Teaching</a></li>
       
@@ -50,7 +50,11 @@
 </div>
 
 <main>
-<p>My research interests are broadly in applied probability theory, in particular studying the <em>microscopic</em> &ldquo;random&rdquo; behavior of an interacting particle system (IPS) can be organized to recover specific <em>macroscopic</em> behaviors of the ensemble. I broadly outline some of my current projects below in two programs, algorithmically and probabilistically.</p>
+<p>My research interests are broadly in applied probability theory, in particular studying the <em>microscopic</em> random behavior of an interacting particle system (IPS) can be organized to recover specific <em>macroscopic</em> behaviors of the ensemble. Formally, in the diffusion setting, the dynamics on a graph $G$ can be specified by a system of $N$ coupled SDEs.
+$$\mathrm{d}X_{t}^{i,N} = b(X_{t}^{i,N}, \mu_{t}^{N}) \ \mathrm{d}t + \sigma(X_{t}^{i,N}, \mu_{t}^{N}) \ \mathrm{d}W_{t}^{i}\ ,$$
+with sufficiently regular $\sigma, b : \mathbb{R}^d \times \mathcal{P}(\mathbb{R}^d) \rightarrow \mathbb{R}^d$ and empirical measure $\mu_{t}^{N} := \frac{1}{N} \sum_{i=1}^{N} \delta_{X_{t}^{i,N}}$.</p>
+<p>This is of practical interest in settings where one would like to estimate random processes influenced by</p>
+<p>I broadly outline some of my current projects below in two distinct programs, which are investigating .</p>
 <h2 id="ips-for-optimization-and-sampling">IPS for Optimization and Sampling</h2>
 <p>Optimization and sampling are quintessential tasks in applied mathematics, both of
 which arise naturally from solving inverse problems. In applications, $\mathcal{G}$

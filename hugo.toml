@@ -3,6 +3,11 @@ languageCode = "en-us"
 title = "Ritvik Teegavarapu"
 theme = "hugo-xmin"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
   description = "Incoming PhD student in Applied Mathematics @ Brown University"
   footer = "© 2026 Ritvik Teegavarapu"
@@ -23,8 +28,8 @@ theme = "hugo-xmin"
   weight = 3
 
 [[menu.main]]
-  name = "Talks"
-  url = "/Talks/"
+  name = "Presentations"
+  url = "/presentations/"
   weight = 4
 
   [[menu.main]]

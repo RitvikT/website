@@ -6,22 +6,8 @@
     <description>Recent content in Home on Ritvik Teegavarapu</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Mar 2026 08:18:46 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2026 21:49:18 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Mentoring</title>
-      <link>http://localhost:1313/mentoring/</link>
-      <pubDate>Thu, 26 Mar 2026 08:18:46 -0700</pubDate>
-      <guid>http://localhost:1313/mentoring/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cv</title>
-      <link>http://localhost:1313/cv/</link>
-      <pubDate>Wed, 25 Mar 2026 21:49:18 -0700</pubDate>
-      <guid>http://localhost:1313/cv/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Outreach</title>
       <link>http://localhost:1313/outreach/</link>
@@ -30,25 +16,39 @@
       <description></description>
     </item>
     <item>
-      <title>Publications</title>
-      <link>http://localhost:1313/publications/</link>
-      <pubDate>Wed, 25 Mar 2026 21:49:18 -0700</pubDate>
-      <guid>http://localhost:1313/publications/</guid>
+      <title>CV</title>
+      <link>http://localhost:1313/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cv/</guid>
+      <description>&lt;p&gt;My CV is available upon request. Instead, enjoy a calming picture of bunnies from campus (credit to Simone Têtu)!&lt;/p&gt;&#xA;&lt;figure style=&#34;text-align: center; margin: 3em auto; max-width: 500px;&#34;&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/bunny.png&#34; style=&#34;width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);&#34;&gt;&#xA;&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Mentoring</title>
+      <link>http://localhost:1313/mentoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/mentoring/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;The delicate balance of mentoring someone is not creating them in your own image,&#xA;but giving them the opportunity to create themselves.&amp;rdquo;&#xA;— Steven Spielberg&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;While I have not had much true mentoring experience, I hope to change that in graduate school. In principle, I am happy to advise undergraduate students (provided capacity) with sufficient mathematical maturity, and I am always willing to advise indirectly via email!&lt;/p&gt;&#xA;&lt;h2 id=&#34;apma-directed-reading-program&#34;&gt;APMA Directed Reading Program&lt;/h2&gt;&#xA;&lt;p&gt;For Brown undergraduates, I am happy to announce that I will be serving as a mentor in the &lt;a href=&#34;https://sites.google.com/brown.edu/apma-drp/home&#34;&gt;APMA DRP&lt;/a&gt; for both semesters in the AY 2026 - 2027. You may refer to the following topics and the linked syllabus, and if interested, please apply through the form on the DRP website.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Presentations</title>
+      <link>http://localhost:1313/presentations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/presentations/</guid>
       <description></description>
     </item>
     <item>
-      <title>Talks</title>
-      <link>http://localhost:1313/talks/</link>
-      <pubDate>Wed, 25 Mar 2026 21:49:18 -0700</pubDate>
-      <guid>http://localhost:1313/talks/</guid>
-      <description></description>
+      <title>Publications</title>
+      <link>http://localhost:1313/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/</guid>
+      <description>&lt;h2 id=&#34;publications&#34;&gt;Publications&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;(*) denotes equal contribution.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;preprints&#34;&gt;Preprints&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;&#34;&gt;Towards Convergence Guarantees for Particle Swarm Optimization&lt;/a&gt;&lt;/strong&gt;&#xA;&lt;strong&gt;Ritvik Teegavarapu&lt;/strong&gt;, Dohyeon Kim, Franca Hoffmann&#xA;&lt;em&gt;In preparation, 2026&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;case-studies&#34;&gt;Case Studies&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://stack-assessment.org/CaseStudies/2026/Introducing_STACK_to_Caltech/&#34;&gt;Introducing STACK to Caltech&lt;/a&gt;&lt;/strong&gt;&#xA;Jasmine Bryant, Jinghao Cao, Franca Hoffmann, Jodie Lee, Salvatore Mercuri, &lt;strong&gt;Ritvik Teegavarapu&lt;/strong&gt;&#xA;&lt;em&gt;Mar. 2025&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;conference-papers&#34;&gt;Conference Papers&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:638cb049-5a88-4dd5-9cd5-22c9fd151846&#34;&gt;Classification of Artificial &amp;amp; Real Objects Using Faster R-CNNs&lt;/a&gt;&lt;/strong&gt;&#xA;&lt;strong&gt;Ritvik Teegavarapu&lt;/strong&gt;, Debojit Biswas&#xA;&lt;em&gt;2021 IEEE Symposium Series on Computational Intelligence, Dec. 2021&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Research</title>
       <link>http://localhost:1313/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/</guid>
-      <description>&lt;p&gt;My research interests are broadly in applied probability theory, in particular studying the &lt;em&gt;microscopic&lt;/em&gt; &amp;ldquo;random&amp;rdquo; behavior of an interacting particle system (IPS) can be organized to recover specific &lt;em&gt;macroscopic&lt;/em&gt; behaviors of the ensemble. I broadly outline some of my current projects below in two programs, algorithmically and probabilistically.&lt;/p&gt;&#xA;&lt;h2 id=&#34;ips-for-optimization-and-sampling&#34;&gt;IPS for Optimization and Sampling&lt;/h2&gt;&#xA;&lt;p&gt;Optimization and sampling are quintessential tasks in applied mathematics, both of&#xA;which arise naturally from solving inverse problems. In applications, $\mathcal{G}$&#xA;is &lt;strong&gt;expensive&lt;/strong&gt; to evaluate (e.g., solving a PDE), and derivatives of $\mathcal{G}$&#xA;are &lt;strong&gt;unavailable&lt;/strong&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;My research interests are broadly in applied probability theory, in particular studying the &lt;em&gt;microscopic&lt;/em&gt; random behavior of an interacting particle system (IPS) can be organized to recover specific &lt;em&gt;macroscopic&lt;/em&gt; behaviors of the ensemble. Formally, in the diffusion setting, the dynamics on a graph $G$ can be specified by a system of $N$ coupled SDEs.&#xA;$$\mathrm{d}X_{t}^{i,N} = b(X_{t}^{i,N}, \mu_{t}^{N}) \ \mathrm{d}t + \sigma(X_{t}^{i,N}, \mu_{t}^{N}) \ \mathrm{d}W_{t}^{i}\ ,$$&#xA;with sufficiently regular $\sigma, b : \mathbb{R}^d \times \mathcal{P}(\mathbb{R}^d) \rightarrow \mathbb{R}^d$ and empirical measure $\mu_{t}^{N} := \frac{1}{N} \sum_{i=1}^{N} \delta_{X_{t}^{i,N}}$.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Teaching</title>

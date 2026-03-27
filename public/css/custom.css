@@ -4,3 +4,15 @@ img {
   width: 200px;
   border-radius: 4px;
 }
+
+.fall {
+  color: #c45c00 !important;
+}
+
+.spring {
+  color: #2e7d32 !important;
+}
+
+footer {
+  clear: both;
+}
