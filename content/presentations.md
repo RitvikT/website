@@ -6,7 +6,7 @@ title = 'Presentations'
 ---
 If you are at any of these future conferences, please say hello and I would love to chat!
 
-### Upcoming
+## Upcoming
 
 <div style="margin-bottom: 1.2em;">
 <div><i>Introducing STACK to Caltech</i></div>
@@ -15,7 +15,7 @@ If you are at any of these future conferences, please say hello and I would love
 
 ---
 
-### Talks
+## Talks
 
 <div style="margin-bottom: 1.2em;">
 <div><i>Gibbs Principles for Markovian Discrete-Time Interacting Particle Systems on Regular Graphs</i></div>
@@ -49,7 +49,7 @@ If you are at any of these future conferences, please say hello and I would love
 
 ---
 
-### Posters
+## Posters
 
 <div style="margin-bottom: 1.2em;">
 <div><i>Towards Convergence Guarantees for Particle Swarm Optimization</i></div>

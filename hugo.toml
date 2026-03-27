@@ -48,6 +48,11 @@ theme = "hugo-xmin"
   weight = 7
 
 [[menu.main]]
+  name = "Bookshelf"
+  url = "/bookshelf/"
+  weight = 8
+
+[[menu.main]]
   name = "CV"
   url = "/cv/"
-  weight = 8
+  weight = 9
