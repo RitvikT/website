@@ -5,8 +5,14 @@ theme = "hugo-xmin"
 
 [markup]
   [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'], ['$', '$']]
+  [markup.goldmark.renderer]
+    unsafe = true
 
 [params]
   description = "Incoming PhD student in Applied Mathematics @ Brown University"

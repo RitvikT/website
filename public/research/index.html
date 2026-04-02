@@ -52,29 +52,98 @@
 </div>
 
 <main>
-<p>My research interests are broadly in applied probability theory, in particular studying the <em>microscopic</em> random behavior of an interacting particle system (IPS) can be organized to recover specific <em>macroscopic</em> behaviors of the ensemble. Formally, in the diffusion setting, the dynamics on a graph $G$ can be specified by a system of $N$ coupled SDEs.
-$$\mathrm{d}X_{t}^{i,N} = b(X_{t}^{i,N}, \mu_{t}^{N}) \ \mathrm{d}t + \sigma(X_{t}^{i,N}, \mu_{t}^{N}) \ \mathrm{d}W_{t}^{i}\ ,$$
-with sufficiently regular $\sigma, b : \mathbb{R}^d \times \mathcal{P}(\mathbb{R}^d) \rightarrow \mathbb{R}^d$ and empirical measure $\mu_{t}^{N} := \frac{1}{N} \sum_{i=1}^{N} \delta_{X_{t}^{i,N}}$.</p>
-<p>This is of practical interest in settings where one would like to estimate random processes influenced by</p>
-<p>I broadly outline some of my current projects below in two distinct programs, which are investigating .</p>
+<p>My research interests are broadly in applied probability theory — in particular, how the
+<em>microscopic</em> random behavior of an <strong>interacting particle system</strong> (IPS) can be organized
+to recover specific <em>macroscopic</em> behaviors of the ensemble. Consider a collection of
+diffusive particles $\{X_v^{G,\xi}\}_{v \in V}$, indexed by the nodes of a graph $G = (V, E)$,
+with square-integrable initial conditions $\{\xi_v\}_{v \in V}$, evolving according to the
+coupled system of SDEs
+</p>
+$$\mathrm{d}X_v^{G,\xi}(t) = b\left(t, X_v^{G,\xi}(t), \mu_v^{G,\xi}(t)\right)\mathrm{d}t + \sigma\left(t, X_v^{G,\xi}(t), \mu_v^{G,\xi}(t)\right)\mathrm{d}W_v(t), \quad X_v^{G,\xi}(0) = \xi_v,$$<p>
+where $\{W_v\}_{v \in V}$ are i.i.d. standard Brownian motions independent of $\{\xi_v\}_{v \in V}$,
+with sufficiently regular coefficient functions $b, \sigma : \mathbb{R}_+ \times \mathbb{R}^d \times \mathcal{P}(\mathbb{R}^d) \to \mathbb{R}^d$,
+and $\mu_v^{G,\xi}(t)$ is the <strong>local empirical measure</strong> of $v$ defined as
+</p>
+$$\mu_v^{G,\xi}(t) := \frac{1}{|\partial_G(v)|} \sum_{u \in \partial_G(v)} \delta_{X_u^{G,\xi}(t)}$$<p>
+where the neighborhood is denoted by $\partial_G(v)$.</p>
+<p>The choice of graph $G$ distinguishes my two research programs.</p>
+<ul>
+<li>When $G = K_N$ is the <strong>complete graph</strong>, every particle interacts with the full ensemble, and the system can be leveraged as a powerful computational tool for optimization and sampling.</li>
+<li>When $G \sim \mathcal{G}(N, c/N)$ with $c > 0$ fixed is a <strong>sparse graph</strong>, each particle interacts with only $O(1)$ neighbors, and the large-particle behavior becomes a fundamentally harder analytical problem.</li>
+</ul>
+<hr>
 <h2 id="ips-for-optimization-and-sampling">IPS for Optimization and Sampling</h2>
 <p>Optimization and sampling are quintessential tasks in applied mathematics, both of
 which arise naturally from solving inverse problems. In applications, $\mathcal{G}$
 is <strong>expensive</strong> to evaluate (e.g., solving a PDE), and derivatives of $\mathcal{G}$
-are <strong>unavailable</strong>.</p>
+are <strong>unavailable</strong> — ruling out classical gradient descent and Langevin sampling.</p>
 <p>These tasks arise from formulating the Bayesian inverse problem, where one wishes to
 recover a parameter $\theta \in \mathbb{R}^d$ from data $y \in \mathbb{R}^m$, with
-$\mathcal{G} : \mathbb{R}^d \to \mathbb{R}^m$ and $\eta \sim \mathcal{N}(0,\Gamma)$.
-$$y = \mathcal{G}(\theta) + \eta$$
-For a Gaussian prior $\mathbb{P}(\theta)=\mathcal{N}(\theta_0,\Sigma)$, the posterior
-$\mathbb{P}(\theta \mid y)$ can be written
-$$\mathbb{P}(\theta \mid y) \propto \exp\left(-\tfrac{1}{2}\lVert y-\mathcal{G}(\theta)\rvert_{\Gamma}^{2} - \tfrac{1}{2}\rVert \theta-\theta_0\rvert_{\Sigma}^{2}\right) = \exp\big(-\Phi(\theta)\big),$$
-where $\lVert x \rVert_{A}^{2} := \langle x, A^{-1}x\rangle$. Some natural questions are:
-\begin{enumerate}
-\item <strong>Optimization:</strong> Find the MAP estimate (the maximizer of $\mathbb{P}(\theta \mid y)$).
-\item <strong>Uncertainty Quantification:</strong> Sample from the posterior $\mathbb{P}(\theta \mid y)$.
-\end{enumerate}</p>
-<h2 id="ips-for-sparse-g">IPS for Sparse G</h2>
+$\mathcal{G} : \mathbb{R}^d \to \mathbb{R}^m$ and $\eta \sim \mathcal{N}(0,\Gamma)$:</p>
+$$y = \mathcal{G}(\theta) + \eta.$$<p>For a Gaussian prior $\mathbb{P}(\theta)=\mathcal{N}(\theta_0,\Sigma)$, the posterior is</p>
+$$\mathbb{P}(\theta \mid y) \propto \exp\!\left(-\tfrac{1}{2}\lVert y-\mathcal{G}(\theta)\rVert_{\Gamma}^{2} - \tfrac{1}{2}\lVert \theta-\theta_0\rVert_{\Sigma}^{2}\right) =: \exp\big(-\Phi(\theta)\big),$$<p>where $\lVert x \rVert_{A}^{2} := \langle x, A^{-1}x\rangle$. Two natural questions arise:</p>
+<ol>
+<li><strong>Optimization:</strong> Find the MAP estimate (the maximizer of $\mathbb{P}(\theta \mid y)$).</li>
+<li><strong>Uncertainty Quantification:</strong> Sample from the posterior $\mathbb{P}(\theta \mid y)$.</li>
+</ol>
+<p>Particle-based methods have emerged as a natural answer to both, as they avoid gradient
+evaluations, are embarrassingly parallelizable, and enjoy convergence guarantees via
+mean-field analysis. A canonical example is <strong>ensemble Kalman sampling</strong> (EKS), where
+one runs a system of $N$ particles $\{\theta_t^i\}_{i=1}^N$ with dynamics</p>
+$$\mathrm{d}\theta_t^i = -C(\mu_t^N) \nabla \Phi(\theta_t^i) \, \mathrm{d}t + \sqrt{2 C(\mu_t^N)} \, \mathrm{d}W_t^i,$$<p>where $C(\mu_t^N) := \frac{1}{N}\sum_{i=1}^N (\theta_t^i - \bar{\theta}_t^N)(\theta_t^i - \bar{\theta}_t^N)^\top$
+is the <strong>empirical covariance</strong> and $\bar{\theta}_t^N := \frac{1}{N}\sum_{i=1}^N \theta_t^i$
+is the ensemble mean. The covariance preconditioning is what allows EKS to avoid
+explicit gradient evaluations of $\mathcal{G}$, making it especially suitable for
+the derivative-free setting.</p>
+<p>My work in this direction focuses on the <strong>algorithmic design and convergence analysis</strong>
+of such methods, with a current focus on particle swarm optimization (PSO).</p>
+<hr>
+<h2 id="ips-on-sparse-graphs">IPS on Sparse Graphs</h2>
+<p>To build intuition: a thermometer works because water is a <strong>mean-field</strong> system —
+every molecule interacts equally with all others, so the bulk behavior reduces to that
+of a single &ldquo;average&rdquo; particle. Mathematically, on a <strong>complete graph</strong> $K_N$, each
+particle $i$ interacts with all others via the empirical measure, and one can show that
+as $N \to \infty$, the empirical measure $\mu_t^N$ concentrates around a
+deterministic limit $\mu_t \in \mathcal{P}(\mathbb{R}^d)$ satisfying the
+<strong>McKean-Vlasov PDE</strong>:</p>
+$$\partial_t \mu_t = -\nabla \cdot (b(\cdot, \mu_t) \mu_t) + \tfrac{1}{2} \nabla^2 : (\sigma\sigma^\top(\cdot, \mu_t) \mu_t).$$<p>In particular, $\mu_t$ is <strong>deterministic</strong>: all randomness washes out in the $N \to \infty$ limit,
+and the long-time behavior $\mu_t \to \mu_\infty$ as $t \to \infty$ can be studied via
+classical PDE and functional-analytic tools (e.g., log-Sobolev inequalities, entropy methods).</p>
+<p>Real-world networks, however, are rarely complete. Social networks, neural circuits,
+and communication graphs are <strong>sparse</strong>: each particle $i$ interacts only with its
+neighbors $\mathcal{N}(i)$ in a graph $G_N$, so the relevant empirical measure for
+particle $i$ is the <strong>local empirical measure</strong></p>
+$$\mu_t^{i,N} := \frac{1}{|\mathcal{N}(i)|} \sum_{j \in \mathcal{N}(i)} \delta_{X_t^{j,N}},$$<p>rather than the global $\mu_t^N$. When $G_N$ is sparse (e.g., an Erdős–Rényi graph
+$\mathcal{G}(N, c/N)$ with $c > 0$ fixed), the degree $|\mathcal{N}(i)| = O(1)$, and
+$\mu_t^{i,N}$ <strong>does not concentrate</strong> — it remains a random object even as $N \to \infty$.</p>
+<p>This is the fundamental difficulty of the sparse setting: <strong>the mean-field limit is no
+longer a deterministic PDE, but a random process.</strong> More precisely, the local empirical
+measures $\{\mu_t^{i,N}\}$ converge (in an appropriate sense) to the law of a
+<strong>McKean-Vlasov process on the Poisson-weighted infinite random tree</strong> (PWIT), the
+local weak limit of $\mathcal{G}(N, c/N)$. The limiting object is an
+infinite-dimensional, tree-indexed stochastic process, and classical PDE tools no
+longer apply directly.</p>
+<p>This raises several natural but difficult questions that my work investigates:</p>
+<ol>
+<li>
+<p><strong>Long-time asymptotics:</strong> Does the system converge to a stationary distribution as
+$t \to \infty$? On complete graphs, entropy methods and log-Sobolev inequalities give
+quantitative rates. On sparse graphs, stationarity is not even well-posed at the level
+of individual particles — one must instead ask whether the <strong>tree-indexed process</strong>
+admits an invariant measure, and if so, at what rate it is approached.</p>
+</li>
+<li>
+<p><strong>Large deviations:</strong> How does $\mu_t^{i,N}$ fluctuate around its typical behavior,
+and what is the cost of rare events? On complete graphs, the large deviation rate
+function is given by a <strong>relative entropy</strong> functional. On sparse graphs, the
+combinatorial structure of the graph itself contributes to the rate function, and
+deriving a sharp LDP requires understanding the interplay between the graph geometry
+and the particle dynamics.</p>
+</li>
+</ol>
+<p>These two questions are deeply intertwined — large deviation principles often govern
+the exponential rate at which the system escapes metastable states, shedding light on
+which equilibria are truly stable in the long run.</p>
 
 </main>
 

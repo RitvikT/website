@@ -10,12 +10,12 @@ title = 'Teaching'
 > — Lee Iacocca
 
 Teaching is an integral part of my academic identity, and one of my greatest passions 
-that I have been able to pursue as an undergraduate student. My philosophy is simple: 
-good teaching is like writing a good book — know your audience, tell a compelling story, 
+that I have been able to pursue as an undergraduate student. My philosophy is that 
+good teaching is like writing a good book, wherein you should know your audience, tell a compelling story, 
 and leave something that lasts. By serving as a teaching assistant for a wide variety 
 of courses, I have learned to slow down and meet students where they are, treat graduate 
 teaching as a genuine two-way intellectual exchange, and make abstract mathematics 
-tangible for students encountering it for the first time. You can find my [teaching statement](/teaching_statement.pdf) and [comments](/comments.pdf) from the courses I have served as a TA for. 
+tangible for students encountering it for the first time. You can find my [teaching statement](/teaching_statement.pdf) and [comments](/comments.pdf) from the courses I have served as a TA for. My full teaching portfolio can be made available upon request.
 
 ---
 
