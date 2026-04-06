@@ -62,12 +62,12 @@ the local empirical measure **remains a random object** even in the mean-field l
 1. **Long-time asymptotics:** Does the system converge to a stationary distribution as
 $t \to \infty$? On complete graphs, entropy methods and log-Sobolev inequalities give
 quantitative rates. On sparse graphs, stationarity is not even well-posed at the level
-of individual particles, and one must instead ask whether the **tree-indexed process**
+of individual particles, and one must instead ask whether the tree-indexed process
 admits an invariant measure, and if so, at what rate it is approached.
 
 2. **Large deviations:** How does $\mu_t^{i,N}$ fluctuate around its typical behavior,
 and what is the cost of rare events? On complete graphs, the large deviation rate
-function is given by a **relative entropy** functional. On sparse graphs, the
+function is given by a relative entropy functional. On sparse graphs, the
 combinatorial structure of the graph itself contributes to the rate function, and
 deriving a sharp LDP requires understanding the interplay between the graph geometry
 and the particle dynamics.

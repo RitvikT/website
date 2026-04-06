@@ -9,11 +9,11 @@
     <lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Your Post Title</title>
+      <title>Normally Distributed</title>
       <link>http://localhost:1313/almost-surely/first-post/</link>
       <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/almost-surely/first-post/</guid>
-      <description>&lt;p&gt;Your content here.&lt;/p&gt;</description>
+      <description>&lt;p&gt;As usual, I was doomscrolling through Instagram when I came across a clip from a TV show called &lt;em&gt;Normal People&lt;/em&gt;. It was one of the more interesting 1-minute tidbits I had seen, and I was looking to get into a more serious but non-committal show, and as it would turn out, this show was a 12-episode mini-series that received universal acclaim. I sat down and decided to binge this show, and it truly surprised me how much I needed this show at this moment. &lt;strong&gt;Spoilers ahead!&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bookshelf</title>
@@ -27,7 +27,7 @@
       <link>http://localhost:1313/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/cv/</guid>
-      <description>&lt;p&gt;My CV is available upon request via email. Instead, I hope you enjoy a picture of bunnies on campus (credit to &lt;a href=&#34;https://www.instagram.com/brownubunnies/&#34;&gt;Bunnies @ Brown&lt;/a&gt;)!&lt;/p&gt;&#xA;&lt;figure style=&#34;text-align: center; margin: 3em auto; max-width: 500px;&#34;&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/bunny.png&#34; style=&#34;width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);&#34;&gt;&#xA;&lt;/figure&gt;</description>
+      <description>&lt;p&gt;My CV is available upon request via email, but I hope you enjoy a picture of bunnies on campus!&lt;/p&gt;&#xA;&lt;figure style=&#34;text-align: center; margin: 3em auto; max-width: 500px;&#34;&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/bunny.png&#34; style=&#34;width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);&#34;&gt;&#xA;  &lt;figcaption style=&#34;margin-top: 0.6em; color: #888; font-style: italic; font-size: 0.9em;&#34;&gt;&#xA;    Credit to &lt;a href=&#34;https://www.instagram.com/brownubunnies/&#34;&gt;Bunnies @ Brown&lt;/a&gt;&#xA;  &lt;/figcaption&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
       <title>Mentoring</title>
@@ -41,7 +41,7 @@
       <link>http://localhost:1313/outreach/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/outreach/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Mathematics knows no races or geographic boundaries; for mathematics, the cultural&#xA;world is one country.&amp;rdquo;&#xA;— David Hilbert&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Introducing mathematics is&lt;/p&gt;&#xA;&lt;h2 id=&#34;stack&#34;&gt;STACK&lt;/h2&gt;&#xA;&lt;p&gt;I have been fortunate enough to&lt;/p&gt;</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Mathematics knows no races or geographic boundaries; for mathematics, the cultural&#xA;world is one country.&amp;rdquo;&#xA;— David Hilbert&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Introducing mathematics is structured academic environments has been a luxury affored by living in a country like the United States. However, it was only under the right mentoring and opportunities that I have been able to be as excited as I am now about mathematics. As such, I would like to bring this opportunity forward for other students.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Presentations</title>
