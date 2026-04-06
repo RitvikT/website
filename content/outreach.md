@@ -10,5 +10,5 @@ title = 'Outreach'
 Introducing mathematics is 
 
 ## STACK
-
+I have been fortunate enough to 
 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Almost Surely on Ritvik Teegavarapu</title>
+    <link>http://localhost:1313/almost-surely/</link>
+    <description>Recent content in Almost Surely on Ritvik Teegavarapu</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/almost-surely/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Normally Distributed</title>
+      <link>http://localhost:1313/almost-surely/first-post/</link>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/almost-surely/first-post/</guid>
+      <description>&lt;p&gt;As usual, I was&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

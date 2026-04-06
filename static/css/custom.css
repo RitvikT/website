@@ -5,6 +5,15 @@ img {
   border-radius: 4px;
 }
 
+ul.menu li {
+  margin-right: 0.5em;
+}
+
+nav {
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
 footer {
   clear: both;
 }
@@ -15,4 +24,40 @@ footer {
 
 .spring {
   color: #2e7d32 !important;
+}
+
+/* Blog post list */
+.list-item {
+  margin-bottom: 1.5em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #eee;
+}
+
+.article-meta {
+  background: none;
+  color: inherit;
+  font-size: inherit;
+  padding: 0;
+  border-radius: 0;
+  text-align: left;
+}
+
+/* Blog post content */
+article p {
+  line-height: 1.8;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 3px solid #aaa;
+  padding-left: 1em;
+  color: #555;
+  font-style: italic;
+}
+
+h1 {
+  text-align: center;
+  background: #eee;
+  padding: 0.5em;
+  border-radius: 5px;
 }
