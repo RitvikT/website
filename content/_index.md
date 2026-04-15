@@ -16,5 +16,5 @@ Outside of academics, I am incredibly passionate about teaching and mentoring, w
 through serving as an instructor, introducing children to the joys of mathematics, or doing mathematical pedagogy research. I firmly believe that improving the quality and accessibility of education is the first of many steps needed to fix the educational droughts present across the world. Please feel free to contact me with any and all teaching opportunities that are generally in the domain of applied mathematics!
 
 ## Highlights
-
-- **March. 2026** — Happy to have accepted an offer to begin my Ph.D studies at Brown University in applied probability theory, continuing my work under the supervision of Kavita Ramanan. 
+- **April 12, 2026** — Happy to have been awarded the [NSF GRFP](https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program) fellowship! 
+- **March 17, 2026** — Happy to have accepted an offer to begin my Ph.D studies at Brown University in applied probability theory under the supervision of Kavita Ramanan. 

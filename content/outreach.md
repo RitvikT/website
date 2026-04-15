@@ -15,5 +15,5 @@ I have been fortunate enough to work with a fantastic team of people in collabor
 The reason for this adoption is that owing to the large classroom sizes in these universities, it is difficult for the instructional team to give personalized feedback on students. As such, STACK acts as a surrogate education companion through its feedback, which can then be investigated in regular office hours if there is still confusion. I hope to continue getting more familiar with the platform, and plan to keep you updated on this different direction of math pedagogy research!
 
 ## Other Activities
-I also hope to get engaged with [Math Co-Op](https://www.dam.brown.edu/math-coop/index.html) and [Mathematics sin Fronteras](https://www.dam.brown.edu/MSF/) once I get to Brown campus as well! 
+I also hope to get engaged with [Math Co-Op](https://www.dam.brown.edu/math-coop/index.html) once I get to campus as well! 
 
