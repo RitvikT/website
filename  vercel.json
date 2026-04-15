@@ -2,7 +2,8 @@
   "build": {
     "env": {
       "HUGO_VERSION": "0.124.0",
-      "HUGO_ENV": "production"
+      "HUGO_ENV": "production",
+      "HUGO_BASEURL": "https://ritvik-teegavarapu.com/"
     }
   }
 }
