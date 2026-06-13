@@ -10,6 +10,12 @@ title = 'Publications'
 ### Preprints
 
 <div style="margin-bottom: 1.2em;">
+<div><a href=""><b>Interacting Particle Systems for Sampling Non-Gaussian Targets</b></a></div>
+<div><b>Ritvik Teegavarapu</b>, Kathrin Hellmuth, Franca Hoffmann, José Antonio Carillo </div>
+<div style="color: #888; font-size: 0.9em;">In preparation, 2026</div>
+</div>
+
+<div style="margin-bottom: 1.2em;">
 <div><a href=""><b>Towards Convergence Guarantees for Particle Swarm Optimization</b></a></div>
 <div><b>Ritvik Teegavarapu</b>, Dohyeon Kim, Franca Hoffmann</div>
 <div style="color: #888; font-size: 0.9em;">In preparation, 2026</div>
@@ -38,5 +44,5 @@ title = 'Publications'
 <div style="margin-bottom: 1.2em;">
 <div><a href="https://www.amazon.com/Competitive-Calculus-Problems-Ritvik-Teegavarapu/dp/B08H6TMCFY"><b>Competitive Calculus Problems</b></a></div>
 <div><b>Ritvik Teegavarapu</b></div>
-<div style="color: #888; font-size: 0.9em;">Book, 2020</div>
+<div style="color: #888; font-size: 0.9em;">Self-Published Book, 2020</div>
 </div>
