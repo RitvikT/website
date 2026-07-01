@@ -10,8 +10,8 @@ title = 'Publications'
 ### Preprints
 
 <div style="margin-bottom: 1.2em;">
-<div><a href=""><b>Interacting Particle Systems for Sampling Non-Gaussian Targets</b></a></div>
-<div><b>Ritvik Teegavarapu</b>, Kathrin Hellmuth, Franca Hoffmann, José Antonio Carillo </div>
+<div><a href=""><b>A Blob Method for Kalman-Wasserstein Gradient Flows</b></a></div>
+<div><b>Ritvik Teegavarapu</b>, Kathrin Hellmuth, Franca Hoffmann, José Antonio Carrillo </div>
 <div style="color: #888; font-size: 0.9em;">In preparation, 2026</div>
 </div>
 

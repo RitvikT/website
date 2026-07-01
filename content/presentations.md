@@ -15,12 +15,7 @@ If you are at any of these future conferences, please say hello and I would love
 </div>
 
 <div style="margin-bottom: 1.2em;">
-<div><span style="color: #4a90d9; font-size: 0.85em;">[Poster]</span> <i>Interacting Particle Systems for Sampling Non-Gaussian Targets</i></div>
-<div style="color: #888; font-size: 0.9em;"><a href="https://icerm.brown.edu/program/hot_topics_workshop/htw-26-sgp">Synergies between Geometry, Probability, and Computation in High Dimensions</a>, ICERM, Brown University, Providence, RI (Jul. 31 – Aug. 2, 2026)</div>
-</div>
-
-<div style="margin-bottom: 1.2em;">
-<div><span style="color: #4a90d9; font-size: 0.85em;">[Poster]</span> <i>Interacting Particle Systems for Sampling Non-Gaussian Targets</i></div>
+<div><span style="color: #4a90d9; font-size: 0.85em;">[Poster]</span> <i>A Blob Method for Kalman-Wasserstein Gradient Flows</i></div>
 <div style="color: #888; font-size: 0.9em;"><a href="https://icerm.brown.edu/program/topical_workshop/tw-26-mps">Partial Differential Equations for Many Particles Systems</a>, ICERM, Brown University, Providence, RI (Aug. 3 – 7, 2026)</div>
 </div>
 
