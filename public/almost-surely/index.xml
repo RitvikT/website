@@ -6,13 +6,20 @@
     <description>Recent content in Almost Surely on Ritvik Teegavarapu</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ritvik-teegavarapu.com/almost-surely/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Supermartingales</title>
+      <link>https://ritvik-teegavarapu.com/almost-surely/supermartingale/</link>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ritvik-teegavarapu.com/almost-surely/supermartingale/</guid>
+      <description>&lt;p&gt;I will start this blog post with some technical stuff (oops!) by defining a continuous-time supermartingale and explain the broad intuition of this object. For all times $s \geq t$, a supermartingale is one in which&#xA;&lt;/p&gt;&#xA;$$\mathbb{E}[X_t \mid \{X_{\tau}\}_{\tau \leq s}] \leq X_s$$&lt;p&gt;Intuitively, this says that the state of the process tends to decrease over time&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Normally Distributed</title>
-      <link>https://ritvik-teegavarapu.com/almost-surely/first-post/</link>
+      <link>https://ritvik-teegavarapu.com/almost-surely/normal/</link>
       <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://ritvik-teegavarapu.com/almost-surely/first-post/</guid>
+      <guid>https://ritvik-teegavarapu.com/almost-surely/normal/</guid>
       <description>&lt;p&gt;There has been some recent discourse regarding the advent of AI, and how this will affect the role of mathematicians in the near future. I think the surface-level aggrandizing that has arisen from people solving Erdős problems with the newest model on the block is far less interesting than it seems, so let us dig a little deeper.&lt;/p&gt;&#xA;&lt;p&gt;If we are to take LLMs at the face value they are presented to us with, then it must be that a given mathematician has either benefited or been rendered redundant. I note that a hidden presumption in this claim is that a mathematician is, first and foremost, a producer of results. If we accept this premise, we arrive at our current anxiety-ridden discourse fairly mechanically. The whole conversation, however, starts to look strange if we reject it. But before rejecting it, let us follow it to its logical end.&lt;/p&gt;</description>
     </item>
   </channel>
