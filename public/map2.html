@@ -49,23 +49,15 @@
      ============================================================ -->
 <script>
 const COUNTRY_STATUS = {
-  "United States of America": { status: "been",  note: "Educated there!" },
-  "Italy":                    { status: "been", note: "Family travel!" },
-  "India":                    { status: "been", note: "Family travel!" },
-  "Kenya":                    { status: "going", note: "Conference travel!" },
-  "Singapore":                { status: "want", note: "Conference travel!" },
-  "Egypt":                    { status: "want", note: "Conference travel!" },
-  "Austria":                  { status: "want", note: "Conference travel!" },
+  "United States of America": { status: "been",  note: "Caltech, NCUR Pittsburgh, IEEE Orlando, SOCAMS, SCCUR" },
+  "Kenya":                     { status: "going", note: "STACK Community Meeting 2026, Nairobi" },
 };
 
 const STATE_STATUS = {
-  "California":   { status: "been",  note: "Did undergrad there!" },
-  "Pennsylvania": { status: "been",  note: "Conference travel!" },
-  "Florida":      { status: "been",  note: "Grew up there!" },
-  "Texas":        { status: "been",  note: "Family travel!" },
-  "Maryland":        { status: "been",  note: "Family travel!" },
-  "Massachusetts":        { status: "been",  note: "Family/recreational travel!" },
-  "Rhode Island": { status: "been", note: "Doing Ph.D. there!" },
+  "California":   { status: "been",  note: "Caltech (Pasadena), SOCAMS (UC Riverside), SCCUR" },
+  "Pennsylvania": { status: "been",  note: "NCUR 2025, Pittsburgh" },
+  "Florida":      { status: "been",  note: "IEEE SSCI 2021, Orlando" },
+  "Rhode Island": { status: "going", note: "ICERM, Brown University — multiple workshops 2026" },
 };
 </script>
 <!-- ============================================================ -->
@@ -73,7 +65,7 @@ const STATE_STATUS = {
 <div id="tooltip"></div>
 
 <div class="legend">
-  <div class="legend-item"><div class="legend-dot" style="background:#EF9F27"></div>Visited</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#EF9F27"></div>Presented</div>
   <div class="legend-item"><div class="legend-dot" style="background:#378ADD"></div>Upcoming</div>
   <div class="legend-item"><div class="legend-dot" style="background:#1D9E75"></div>Want to go</div>
 </div>
