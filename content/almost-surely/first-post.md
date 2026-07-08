@@ -2,7 +2,7 @@
 draft = false
 title = "Normally Distributed"
 subtitle = "and why being normal is alright."
-date = 2026-04-01
+date = 2026-07-01
 +++
 
 There has been some recent discourse regarding the advent of AI, and how this will affect the role of mathematicians in the near future. I think the surface-level aggrandizing that has arisen from people solving Erdős problems with the newest model on the block is far less interesting than it seems, so let us dig a little deeper.
