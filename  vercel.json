@@ -1,9 +1,10 @@
 {
+  "buildCommand": "hugo --baseURL https://ritvik-teegavarapu.com/",
+  "outputDirectory": "public",
   "build": {
     "env": {
       "HUGO_VERSION": "0.124.0",
-      "HUGO_ENV": "production",
-      "HUGO_BASEURL": "https://ritvik-teegavarapu.com/"
+      "HUGO_ENV": "production"
     }
   }
 }
