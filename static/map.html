@@ -136,7 +136,7 @@ function showWorld() {
   gMain = svg.append("g");
   setupZoom(vb);
 
-  d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json").then(world => {
+  d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json")).then(world => {
     const proj = d3.geoNaturalEarth1().scale(153).translate([480, 250]);
     const path = d3.geoPath().projection(proj);
     const countries = topojson.feature(world, world.objects.countries);
