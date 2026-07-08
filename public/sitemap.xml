@@ -2,33 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/almost-surely/</loc>
+    <loc>https://ritvik-teegavarapu.com/almost-surely/</loc>
     <lastmod>2026-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://ritvik-teegavarapu.com/</loc>
     <lastmod>2026-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/almost-surely/first-post/</loc>
+    <loc>https://ritvik-teegavarapu.com/almost-surely/first-post/</loc>
     <lastmod>2026-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/bookshelf/</loc>
+    <loc>https://ritvik-teegavarapu.com/bookshelf/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://ritvik-teegavarapu.com/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/cv/</loc>
+    <loc>https://ritvik-teegavarapu.com/presentations/</loc>
   </url><url>
-    <loc>http://localhost:1313/mentoring/</loc>
+    <loc>https://ritvik-teegavarapu.com/publications/</loc>
   </url><url>
-    <loc>http://localhost:1313/outreach/</loc>
+    <loc>https://ritvik-teegavarapu.com/research/</loc>
   </url><url>
-    <loc>http://localhost:1313/presentations/</loc>
-  </url><url>
-    <loc>http://localhost:1313/publications/</loc>
-  </url><url>
-    <loc>http://localhost:1313/research/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-  </url><url>
-    <loc>http://localhost:1313/teaching/</loc>
+    <loc>https://ritvik-teegavarapu.com/tags/</loc>
   </url>
 </urlset>
