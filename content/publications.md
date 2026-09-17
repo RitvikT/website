@@ -3,7 +3,10 @@ draft = false
 title = 'Publications'
 +++
 
-Authors listed alphabetically unless otherwise noted.
+> "A mathematician, like a painter or a poet, is a maker of patterns."
+> — G.H. Hardy
+
+Authors listed alphabetically unless otherwise noted with (†).
 
 ---
 
@@ -43,8 +46,8 @@ Authors listed alphabetically unless otherwise noted.
 <div style="margin-bottom: 1.5em; display: flex; gap: 1em;">
 <div style="color: #888; font-size: 0.9em; min-width: 2em;">01</div>
 <div>
-<div><b>Classification of Artificial & Real Objects Using Faster R-CNNs</b></div>
-<div>Debojit Biswas, <b>Ritvik Teegavarapu</b></div>
+<div><b>Classification of Artificial & Real Objects Using Faster R-CNNs<sup>†</sup></b></div>
+<div><b>Ritvik Teegavarapu</b>, Debojit Biswas</div>
 <div style="color: #888; font-size: 0.9em;"><i>2021 IEEE Symposium Series on Computational Intelligence</i>, Dec. 2021 &nbsp; <a href="https://ieeexplore.ieee.org/document/9660105">IEEE</a></div>
 </div>
 </div>
