@@ -6,14 +6,14 @@
     <description>Recent content in Almost Surely on Ritvik Teegavarapu</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ritvik-teegavarapu.com/almost-surely/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Supermartingales</title>
       <link>https://ritvik-teegavarapu.com/almost-surely/supermartingale/</link>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
       <guid>https://ritvik-teegavarapu.com/almost-surely/supermartingale/</guid>
-      <description>&lt;p&gt;I will start this blog post with some technical stuff (oops!) by defining a continuous-time supermartingale and explain the broad intuition of this object. For all times $s \geq t$, a supermartingale is one in which&#xA;&lt;/p&gt;&#xA;$$\mathbb{E}[X_t \mid \{X_{\tau}\}_{\tau \leq s}] \leq X_s$$&lt;p&gt;Intuitively, this says that the state of the process tends to decrease over time&lt;/p&gt;</description>
+      <description>&lt;p&gt;The Doomsday clock now sits at 89 seconds to midnight, and the recent wave of AI developments has shaved off at least one more. I promised myself this would be my last post on the subject, and I intend to keep that promise — but the occasion demands one more entry.&lt;/p&gt;&#xA;&lt;p&gt;I will start with some technical grounding. For all times $s \leq t$, a &lt;strong&gt;supermartingale&lt;/strong&gt; is a stochastic process satisfying&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Normally Distributed</title>

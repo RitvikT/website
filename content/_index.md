@@ -6,7 +6,7 @@ title: "Home"
 
 Hello! My name is Ritvik Teegavarapu, and I am a first year Ph.D. student at Brown University in the Applied Mathematics department under the supervision of [Kavita Ramanan](https://sites.google.com/brown.edu/kavita-ramanan/about). I received my B.Sc. in Applied and Computational Mathematics from the California Institute of Technology under the supervision of [Franca Hoffmann](https://www.francahoffmann.com). 
 
-My research interests are broadly in applied probability theory and stochastic analysis, specifically in the study of interacting particle systems for applications in optimization, sampling, large deviations, optimal transport, and many more. See my [Research](/research/) page for more information!
+My research interests are broadly in applied probability theory and stochastic analysis, specifically in the study of interacting particle systems for applications in optimization, sampling, large deviations, optimal transport, and more. See my [Research](/research/) page for more information!
 
 Outside of academics, I am incredibly passionate about teaching and mentoring, whether that be through serving as an instructor, introducing children to the joys of mathematics by way of outreach, or doing mathematical pedagogy research. I firmly believe that improving the quality and accessibility of education is the first of many steps needed to fix the educational droughts present across the world. Please feel free to contact me with any and all teaching opportunities that are generally in the domain of applied mathematics!
 

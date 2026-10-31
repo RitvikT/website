@@ -35,7 +35,7 @@ Authors listed alphabetically unless otherwise noted with (†).
 <div>
 <div><b>From Consensus-Based Optimization to Particle Swarm Optimization: Convergence Guarantees under Drift-Diffusion Coupling</b></a></div>
 <div>Franca Hoffmann, Dohyeon Kim, <b>Ritvik Teegavarapu</b></div>
-<div style="color: #888; font-size: 0.9em;">Submitted, 2026 &nbsp; <a href="https://arxiv.org/abs/2609.17002">arXiv</a></div>
+<div style="color: #888; font-size: 0.9em;">Submitted, Sep. 2026 &nbsp; <a href="https://arxiv.org/abs/2609.17002">arXiv</a></div>
 </div>
 </div>
 
@@ -61,7 +61,7 @@ Authors listed alphabetically unless otherwise noted with (†).
 <div>
 <div><b>Interacting Particle Systems for Sampling from Non-Gaussian Targets</b></a></div>
 <div><b>Ritvik Teegavarapu</b></div>
-<div style="color: #888; font-size: 0.9em;"><i>Senior Thesis, Caltech</i>, 2026 &nbsp; <a href="https://thesis.caltech.edu/17725/">Link</a></div>
+<div style="color: #888; font-size: 0.9em;"><i>Senior Thesis, Caltech</i>, June 2026 &nbsp; <a href="https://thesis.caltech.edu/17725/">Link</a></div>
 </div>
 </div>
 

@@ -64,3 +64,10 @@ When $G_N$ is sparse (e.g., Erdős–Rényi with $|\partial_{G_N}(v)| = \mathcal
 2. **Large deviations:** What is the cost of rare fluctuations of $\mu_v^{G_N,\xi}(t)$ away from its typical behavior? On complete graphs, the rate function is a relative entropy functional. On sparse graphs, the combinatorial geometry of $G_N$ contributes nontrivially to the rate function, and deriving a sharp LDP requires understanding the interplay between graph structure and particle dynamics.
 
 These two questions are deeply intertwined: large deviation principles govern the exponential rate at which the system escapes metastable states, clarifying which equilibria are truly stable. Beyond their mathematical interest, precise large deviation estimates are essential for modeling rare but catastrophic events in physical and engineered systems.
+
+<figure style="text-align: center; margin: 2em auto; max-width: 500px;">
+<img src="/sis_graph.gif" style="width: 100%; border-radius: 6px;">
+<figcaption style="margin-top: 0.6em; color: #888; font-style: italic; font-size: 0.9em;">
+Simulation of SIS dynamics on regular graph. (Credit to <a href="https://dannychen0830.github.io" target="_blank">Danny Chen!</a>)
+</figcaption>
+</figure>
