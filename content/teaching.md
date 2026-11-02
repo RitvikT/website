@@ -23,10 +23,10 @@ assistant** for. I also had the pleasure of being the instructor of record for a
 |-------|--------|---------|
 | UG | [**Ma 1ab**: Calculus of One Variable and Linear Algebra](https://catalog.caltech.edu/current/2025-26/department/Ma/#calculus-of-one-and-several-variables-and-linear-algebra) | Fall 2023, Winter 2024 |
 | UG | [**ACM 11**: Introduction to Computational Science and Engineering](https://catalog.caltech.edu/current/2025-26/department/ACM/#introduction-to-computational-science-and-engineering) | Spring 2024, 2026\* |
-| UG | [**ACM 116**: Introduction to Probability Models](https://catalog.caltech.edu/current/2025-26/department/ACM/#introduction-to-probability-models) | Fall 2024\*, 2025 |
+| UG | [**ACM 116**: Introduction to Probability Models](https://catalog.caltech.edu/current/2025-26/department/ACM/#introduction-to-probability-models) [(Typeset Notes)](/ACM_116_Notes.pdf) | Fall 2024\*, 2025 |
 | G | [**ACM 154**: Inverse Problems and Data Assimilation](https://catalog.caltech.edu/current/2025-26/department/ACM/#inverse-problems-and-data-assimilation) | Winter 2025, 2026 |
 | UG | [**ACM 95b**: Introductory Methods of Applied Mathematics](https://catalog.caltech.edu/current/2025-26/department/ACM/#introductory-methods-of-applied-mathematics-for-the-physical-sci) | Spring 2025\*, 2026\* |
 | G | [**ACM 117**: Probability Theory and Computational Mathematics](https://catalog.caltech.edu/current/2025-26/department/ACM/#probability-theory-and-computational-mathematics) | Fall 2025 |
 | G | [**ACM 107a**: Linear Analysis with Applications](https://catalog.caltech.edu/current/2025-26/department/ACM/#linear-analysis-with-applications) | Fall 2025 |
-| UG | **CS 12**: [High-Dimensional Probability](/syllabus.pdf) *(Instructor)* | Winter 2026 |
+| UG | **CS 12**: High-Dimensional Probability [(Syllabus)](/syllabus.pdf) | Winter 2026 *(Instructor)*|
 
