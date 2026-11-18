@@ -6,7 +6,7 @@ title = 'Presentations'
 > "If you can't explain it simply, you don't understand it well enough." 
 > — Richard Feynman
 
-If you are at any of these future conferences, please say hello and I would love to chat!
+<!-- If you are at any of these future conferences, please say hello and I would love to chat!
 
 ## Upcoming
 
@@ -23,7 +23,7 @@ If you are at any of these future conferences, please say hello and I would love
 <div style="margin-bottom: 1.2em;">
 <div><span style="color: #4a90d9; font-size: 0.85em;">[Invited Lecture Series]</span> <i>Interacting Particle Systems and Applications</i></div>
 <div style="color: #888; font-size: 0.9em;">Mathematics, Actuarial, and Data Science Association Research Seminar, The American University in Cairo, Cairo, Egypt (Jan. 2027)</div>
-</div>
+</div> -->
 
 ---
 

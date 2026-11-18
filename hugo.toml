@@ -25,45 +25,64 @@ theme = "hugo-xmin"
 
 [[menu.main]]
   name = "Research"
+  identifier = "research"
   url = "/research/"
   weight = 2
 
 [[menu.main]]
   name = "Publications"
+  parent = "research"
   url = "/publications/"
-  weight = 3
+  weight = 1
 
 [[menu.main]]
   name = "Presentations"
+  parent = "research"
   url = "/presentations/"
-  weight = 4
+  weight = 2
 
-  [[menu.main]]
+[[menu.main]]
   name = "Teaching"
+  identifier = "teaching"
   url = "/teaching/"
-  weight = 5
+  weight = 3
 
 [[menu.main]]
   name = "Mentoring"
+  parent = "teaching"
   url = "/mentoring/"
-  weight = 6
+  weight = 1
 
-  [[menu.main]]
+[[menu.main]]
   name = "Outreach"
+  parent = "teaching"
   url = "/outreach/"
-  weight = 7
+  weight = 2
+
+[[menu.main]]
+  name = "Awards"
+  url = "/awards/"
+  weight = 4
+
+[[menu.main]]
+  name = "Miscellaneous"
+  identifier = "misc"
+  url = "#"
+  weight = 5
 
 [[menu.main]]
   name = "Bookshelf"
+  parent = "misc"
   url = "/bookshelf/"
-  weight = 8
+  weight = 1
 
 [[menu.main]]
   name = "Blog"
+  parent = "misc"
   url = "/almost-surely/"
-  weight = 9
+  weight = 2
 
 [[menu.main]]
   name = "CV"
   url = "/cv/"
-  weight = 10
+  weight = 6

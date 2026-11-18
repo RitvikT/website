@@ -21,7 +21,7 @@ assistant** for. I also had the pleasure of being the instructor of record for a
 
 | Level | Course | Term(s) |
 |-------|--------|---------|
-| UG | [**Ma 1ab**: Calculus of One Variable and Linear Algebra](https://catalog.caltech.edu/current/2025-26/department/Ma/#calculus-of-one-and-several-variables-and-linear-algebra) | Fall 2023, Winter 2024 |
+| UG | [**Ma 1ab**: Calculus of One Variable and Linear Algebra](https://catalog.caltech.edu/current/2026-27/department/Ma/#calculus-of-one-and-several-variables-and-linear-algebra) | Fall 2023, Winter 2024 |
 | UG | [**ACM 11**: Introduction to Computational Science and Engineering](https://catalog.caltech.edu/current/2025-26/department/ACM/#introduction-to-computational-science-and-engineering) | Spring 2024, 2026\* |
 | UG | [**ACM 116**: Introduction to Probability Models](https://catalog.caltech.edu/current/2025-26/department/ACM/#introduction-to-probability-models) [(Typeset Notes)](/ACM_116_Notes.pdf) | Fall 2024\*, 2025 |
 | G | [**ACM 154**: Inverse Problems and Data Assimilation](https://catalog.caltech.edu/current/2025-26/department/ACM/#inverse-problems-and-data-assimilation) | Winter 2025, 2026 |

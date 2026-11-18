@@ -33,4 +33,8 @@ For Brown undergraduates, I am happy to announce that I will be serving as a men
 </div>
 
 ## Undergraduate Research
-I am currently unable to supervise any individual students, but please keep on the lookout for any projects I post! For any projects, I expect students to have a strong background in upper-level probability theory/linear algebra, some exposure to real analysis, and coding background in `Python`, `MATLAB`, or comparable scientific programming language.
+I am broadly interested in exploring two directions to work with highly interested students on two topics: 
+- **Filtering on Graphs**: Suppose each vertex of a graph has a hidden state that changes randomly over time, and we obtain noisy measurements of a few
+vertices. How do the geometric and combinatorial properties of a graph affect the accuracy of filtering and prediction for a stochastic process evolving on that graph?
+- 
+For any projects, I expect students to have a strong background in upper-level probability theory/linear algebra, some exposure to real analysis, and coding background in `Python`, `MATLAB`, or comparable scientific programming language. Please reach out if you are interested!

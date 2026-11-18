@@ -11,10 +11,19 @@
 
   <body>
     <nav>
-    <ul class="menu" style="white-space: nowrap; overflow-x: auto; display: flex; flex-wrap: nowrap; padding: 0; list-style: none;">
-      {{ range .Site.Menus.main }}
-      <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+    <ul class="menu">
+  {{ range .Site.Menus.main }}
+  <li{{ if .HasChildren }} class="has-dropdown"{{ end }}>
+    <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+    {{ if .HasChildren }}
+    <ul class="dropdown">
+      {{ range .Children }}
+      <li><a href="{{ if eq .URL "#" }}#{{ else }}{{ .URL | relURL }}{{ end }}">{{ .Name }}</a></li>
       {{ end }}
     </ul>
+    {{ end }}
+  </li>
+  {{ end }}
+  </ul>
     <hr/>
     </nav>
